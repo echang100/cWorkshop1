@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include "function.hpp"
 using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -16,6 +17,6 @@ int main(int argc, const char * argv[]) {
 	cin >> hi;
 	cout << hi + hi << endl;
     cin >> b;
-    cout << b << endl;
+    cout << area (b) << endl;
     return 0;
 }
