@@ -11,8 +11,11 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
 	int hi;
+    double b;
     std::cout << "Hello, World!\n";
 	cin >> hi;
 	cout << hi + hi << endl;
+    cin >> b;
+    cout << b << endl;
     return 0;
 }
